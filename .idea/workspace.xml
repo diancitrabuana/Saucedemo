@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736c16cd-e825-45a0-966d-f4cd80d99129" name="Changes" comment="new print tes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/Login.java" afterDir="false" />
+    <list default="true" id="736c16cd-e825-45a0-966d-f4cd80d99129" name="Changes" comment="new print failed_login_case">
+      <change afterPath="$PROJECT_DIR$/src/test/data/test-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/LoginDDT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +48,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Login.failed_login_case">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="saucedemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Login.success_addproduct_case">
     <configuration name="Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.Login" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,21 +85,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.get_title" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Login.success_addproduct_case" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Login" />
-      <option name="METHOD_NAME" value="get_title" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login.open_browser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Saucedemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Login" />
-      <option name="METHOD_NAME" value="open_browser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.Login" />
+      <option name="METHOD_NAME" value="success_addproduct_case" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,13 +117,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Product.success_addproduct_case" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saucedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="saucedemo" />
+      <option name="MAIN_CLASS_NAME" value="saucedemo.Product" />
+      <option name="METHOD_NAME" value="success_addproduct_case" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Login.success_addproduct_case" />
         <item itemvalue="JUnit.Login.failed_login_case" />
         <item itemvalue="JUnit.Login.success_login_case" />
         <item itemvalue="JUnit.Login" />
-        <item itemvalue="JUnit.Login.open_browser" />
-        <item itemvalue="JUnit.Login.get_title" />
+        <item itemvalue="JUnit.Product.success_addproduct_case" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697990221961</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new print failed_login_case">
+      <option name="closed" value="true" />
+      <created>1698018080181</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698018080181</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,19 +240,30 @@
     <MESSAGE value="new print Namaku.java" />
     <MESSAGE value="new print belajar" />
     <MESSAGE value="new print tes" />
-    <option name="LAST_COMMIT_MESSAGE" value="new print tes" />
+    <MESSAGE value="new print failed_login_case" />
+    <option name="LAST_COMMIT_MESSAGE" value="new print failed_login_case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/saucedemo/Login.java</url>
-          <line>39</line>
+          <line>52</line>
           <properties class="saucedemo.Login" method="failed_login_case">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/saucedemo/LoginDDT.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/saucedemo/Login.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
